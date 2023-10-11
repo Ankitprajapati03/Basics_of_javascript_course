@@ -1,0 +1,33 @@
+html,body{
+    height:100;
+    width:100;
+    background-color:gray;
+}
+.yellow{
+    background-color: yellow;
+    color:white;
+}
+.red{
+    background-color: red;
+    color:white;
+}
+.text-dark{
+    color:black;
+}
+
+.bulb{
+    heigth:347px;
+    width:347px;
+    background-color: yellow;
+}
+
+.bulb-container{
+    height:341px;
+    width:341px;
+}
+
+.t{
+    width: 200px;
+    height:200px;
+    background-color: blueviolet;
+}

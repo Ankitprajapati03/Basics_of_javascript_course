@@ -1,0 +1,14 @@
+ul li{
+    list-style: none;;
+}
+html,body{
+    background-color: red;;
+}
+.p-4{
+   padding: .5rem 60.5rem!important;
+   
+}
+.p-4 img{
+    height:30px;
+    width:30px;
+}

@@ -1,0 +1,32 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 0;margin: 0;
+}
+/* // navbar */
+/* ul{
+    margin: 0;
+    padding: 5px 0;
+    display:flex;
+    background-color: grey
+
+}
+ul li{
+    list-style: none;
+    margin:0 23px;
+    color:white;
+} */
+
+*{
+margin: 0% 0;padding: 0;
+}
+ul{
+    display:flex;
+    background-color: gray;
+
+}
+nav ul li{
+
+    list-style: none;
+    padding: 0 23px;
+}

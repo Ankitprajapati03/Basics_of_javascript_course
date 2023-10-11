@@ -1,0 +1,58 @@
+
+    <!doctype html>
+    <html lang="en">
+    <head>
+        <link href=
+    "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+            <link rel="stylesheet" href="style.css">
+        <script src=
+    "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js">
+        </script>
+    </head>
+    <body>
+               <div class="container d-flex mb-4 p-4">
+            <button class="btn btn-success m-3 mx-50"
+                    type="button" id="trigger-btn">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_V3FS0WoksqAKI4gwgSgBne7p-4RK9NSWq_WGP4yrlg&s" alt="" >
+            </button>
+        </div>
+        <div class="offcanvas offcanvas-end bg-dark
+            text-light"
+            id="offcanvasRight">
+            <div class="offcanvas-header">
+                
+              <button type="button">Search</button>
+              <input type="text">
+                <button type="button"
+                    class="btn-close text-reset bg-light"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close">
+                </button>
+            </div>
+            <div class="offcanvas-body">
+                <ul>
+                    <li>Home</li>
+                    <li>About Me</li>
+                    <li>Contact Me</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            //New instance of the collapse element is created
+            var offcanvasElement = document.getElementById("offcanvasRight");
+            var offcanvas = new bootstrap.Offcanvas(offcanvasElement);
+            
+            //The offcanvas element is toggled using the toggle() function
+            let button = document.getElementById("trigger-btn");
+            button.addEventListener("click", () => {
+                return offcanvas.toggle();
+            ;
+            });
+        </script>
+
+<script src="script.js"></script>
+    </body>
+    </html>
+  
